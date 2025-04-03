@@ -1,0 +1,41 @@
+.task-card {
+  max-width: 400px;
+  height: 300px; 
+  background: #ffffff;
+  transition: transform 0.2s ease-in-out;
+}
+
+.task-card:hover {
+  transform: scale(1.02);
+}
+
+.description-box {
+  max-height: 100px;
+  overflow-y: auto;
+  /* background: #f8f9fa; */
+  border-radius: 8px;
+  font-size: 0.9rem;
+  /* color: #495057; */
+}
+
+.description-box::-webkit-scrollbar {
+  width: 5px;
+}
+.description-box::-webkit-scrollbar-thumb {
+  background-color: #adb5bd;
+  border-radius: 10px;
+}
+
+.icon-btn {
+  transition: background 0.3s ease;
+}
+
+.icon-btn:hover {
+  filter: brightness(90%);
+}
+.priority-badge {
+  font-size: 0.8rem;
+  padding: 5px 10px;
+  border-radius: 8px;
+}
+
